@@ -1,0 +1,25 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "\"# socketchat\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingdongyu1994/socketchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingdongyu1994/socketchat/issues"
+  },
+  "homepage": "https://github.com/xingdongyu1994/socketchat#readme",
+  "dependencies": {
+    "engine.io": "^3.1.0",
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}

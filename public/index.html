@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>socketchat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel="stylesheet" href="../public/styles/index.css">
+  </head>
+  <body>
+    <div class="chat-main">
+      <div class="chat-top">
+         <p class="chat-top-title">socketchat</p>
+         <div id="chat-top-status">1个用户</div>
+         <div id="chat-top-infoarea"></div>
+      </div>
+      <div class="chat-bottom">
+        <textarea id="chat-bottom-input"></textarea>
+        <button id="send-btn">send</button>
+      </div>
+    </div>
+    <div class="cover-main">
+      <p id="cover-status">链接服务</p>
+      <div id="cover-login">
+        <input type="text" placeholder="username" id="cover-login-input"/>
+        <button class="cover-login-btn" id="login-btn">登录</button>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/socket.io.js"></script>
+  <script src="./scripts/index.js"></script>
+</html>
