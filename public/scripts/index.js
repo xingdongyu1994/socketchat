@@ -14,6 +14,7 @@ var userlist=document.getElementById('userList')
 MyChat.prototype = {
   init: ()=>{
     var that = this
+    console.log("kjhgfdfghjkjhgfd",this)
     //连接
     this.socket = io.connect()
     //客户端监听连接  成功后
